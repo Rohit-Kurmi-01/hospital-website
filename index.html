@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>EliteCare Hospital - Home</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+ 
+</head>
+<body class="bg-gradient-to-br from-blue-50 via-blue-100 to-blue-200 text-gray-900">
+  <!-- Sticky Navbar -->
+  <nav class="bg-gradient-to-r from-white via-blue-100 to-blue-200 shadow p-4 sticky top-0 z-50">
+    <div class="container mx-auto flex justify-between items-center">
+      <a href="#home" class="text-2xl font-extrabold text-blue-700 tracking-tight flex items-center gap-2">
+        <img src="https://meditreehealthcare.in/wp-content/uploads/2024/06/Meditree-Healthcare.png" alt="EliteCare Hospital Logo" class="w-10 h-10 object-contain" style="max-height:40px;"/>
+        EliteCare Hospital
+      </a>
+      <button id="nav-toggle" class="md:hidden text-blue-700 focus:outline-none" aria-label="Open Menu">
+        <svg class="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path></svg>
+      </button>
+      <div id="nav-menu" class="hidden md:flex md:items-center md:space-x-6 absolute md:static top-16 right-4 bg-white md:bg-transparent shadow-lg md:shadow-none rounded md:rounded-none p-4 md:p-0 transition-all duration-300">
+        <a href="#home" class="block py-2 md:py-0 px-2 rounded hover:bg-blue-50 hover:text-blue-700 font-medium transition">Home</a>
+        <a href="#services" class="block py-2 md:py-0 px-2 rounded hover:bg-blue-50 hover:text-blue-700 font-medium transition">Services</a>
+        <a href="#appointment" class="block py-2 md:py-0 px-2 rounded hover:bg-blue-50 hover:text-blue-700 font-medium transition">Appointments</a>
+        <a href="#contact" class="block py-2 md:py-0 px-2 rounded hover:bg-blue-50 hover:text-blue-700 font-medium transition">Contact</a>
+        <a href="#appointment" class="block py-2 md:py-0 px-2 rounded bg-blue-700 text-white hover:bg-blue-800 font-semibold transition md:ml-4">Book Now</a>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Modern Responsive Hero Section with Animate.css Animations -->
+  <header id="home" class="h-screen flex items-center justify-center bg-gradient-to-br from-blue-200 via-blue-100 to-blue-50 overflow-hidden" data-aos="fade-up">
+    <div class="w-full h-full flex items-center justify-center">
+      <div class="swiper hero-swiper w-full h-full">
+        <div class="swiper-wrapper">
+          <!-- Slide 1 -->
+          <div class="swiper-slide h-screen bg-gradient-to-br from-blue-200 via-blue-100 to-blue-50 flex items-center justify-center">
+            <div class="container mx-auto flex flex-col md:flex-row items-center justify-center h-full">
+              <div class="flex-1 flex flex-col justify-center items-center md:items-start px-6 md:px-16 max-w-2xl z-10">
+                <h1 class="text-4xl md:text-6xl font-extrabold text-blue-900 mb-6 animate__animated animate__fadeInUp">Your Health, Our Priority</h1>
+                <p class="text-lg md:text-2xl text-blue-700 font-light mb-8 animate__animated animate__fadeInUp animate__delay-1s">Experience compassionate care and modern medicine at EliteCare Clinic.</p>
+                <div class="flex gap-4 animate__animated animate__fadeInUp animate__delay-2s">
+                  <a href="#appointment" class="px-8 py-4 bg-blue-700 text-white rounded shadow hover:bg-blue-800 hover:scale-105 transition duration-300 ease-in-out text-lg font-semibold focus:outline-none">Book Appointment</a>
+                  <a href="#services" class="px-8 py-4 bg-white text-blue-700 border border-blue-700 rounded shadow hover:bg-blue-50 hover:scale-105 transition duration-300 ease-in-out text-lg font-semibold focus:outline-none">Learn More</a>
+                </div>
+              </div>
+              <div class="flex-1 flex justify-center items-center px-6 md:px-0">
+                <img src="https://images.unsplash.com/photo-1550831107-1553da8c8464?auto=format&fit=crop&w=600&q=80" alt="Doctor" class="w-80 md:w-[28rem] rounded-3xl shadow-2xl object-cover animate__animated animate__zoomIn"/>
+              </div>
+            </div>
+          </div>
+          <!-- Slide 2 -->
+          <div class="swiper-slide h-screen bg-gradient-to-br from-blue-100 via-green-100 to-green-200 flex items-center justify-center">
+            <div class="container mx-auto flex flex-col md:flex-row items-center justify-center h-full">
+              <div class="flex-1 flex flex-col justify-center items-center md:items-start px-6 md:px-16 max-w-2xl z-10">
+                <h1 class="text-4xl md:text-6xl font-extrabold text-green-900 mb-6 animate__animated animate__fadeInUp">Care with Expertise</h1>
+                <p class="text-lg md:text-2xl text-green-700 font-light mb-8 animate__animated animate__fadeInUp animate__delay-1s">Our team is dedicated to your lifelong health and happiness.</p>
+                <div class="flex gap-4 animate__animated animate__fadeInUp animate__delay-2s">
+                  <a href="#appointment" class="px-8 py-4 bg-green-700 text-white rounded shadow hover:bg-green-800 hover:scale-105 transition duration-300 ease-in-out text-lg font-semibold focus:outline-none">Book Appointment</a>
+                  <a href="#services" class="px-8 py-4 bg-white text-green-700 border border-green-700 rounded shadow hover:bg-green-50 hover:scale-105 transition duration-300 ease-in-out text-lg font-semibold focus:outline-none">Learn More</a>
+                </div>
+              </div>
+              <div class="flex-1 flex justify-center items-center px-6 md:px-0">
+                <img src="https://images.unsplash.com/photo-1519494026892-80bbd2d6fd23?auto=format&fit=crop&w=600&q=80" alt="Medical Team" class="w-80 md:w-[28rem] rounded-3xl shadow-2xl object-cover animate__animated animate__zoomIn"/>
+              </div>
+            </div>
+          </div>
+          <!-- Slide 3 -->
+          <div class="swiper-slide h-screen bg-gradient-to-br from-pink-100 via-yellow-100 to-yellow-200 flex items-center justify-center">
+            <div class="container mx-auto flex flex-col md:flex-row items-center justify-center h-full">
+              <div class="flex-1 flex flex-col justify-center items-center md:items-start px-6 md:px-16 max-w-2xl z-10">
+                <h1 class="text-4xl md:text-6xl font-extrabold text-pink-900 mb-6 animate__animated animate__fadeInUp">Trusted by Families</h1>
+                <p class="text-lg md:text-2xl text-pink-700 font-light mb-8 animate__animated animate__fadeInUp animate__delay-1s">We care for every generation with warmth and respect.</p>
+                <div class="flex gap-4 animate__animated animate__fadeInUp animate__delay-2s">
+                  <a href="#appointment" class="px-8 py-4 bg-pink-700 text-white rounded shadow hover:bg-pink-800 hover:scale-105 transition duration-300 ease-in-out text-lg font-semibold focus:outline-none">Book Appointment</a>
+                  <a href="#services" class="px-8 py-4 bg-white text-pink-700 border border-pink-700 rounded shadow hover:bg-pink-50 hover:scale-105 transition duration-300 ease-in-out text-lg font-semibold focus:outline-none">Learn More</a>
+                </div>
+              </div>
+              <div class="flex-1 flex justify-center items-center px-6 md:px-0">
+                <img src="https://images.unsplash.com/photo-1465101046530-73398c7f28ca?auto=format&fit=crop&w=600&q=80" alt="Family Care" class="w-80 md:w-[28rem] rounded-3xl shadow-2xl object-cover animate__animated animate__zoomIn"/>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-pagination mb-8"></div>
+      </div>
+    </div>
+  </header>
+
+  <!-- Animate.css for extra effects -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+
+  <!-- Services Section -->
+  <section id="services" class="max-w-6xl mx-auto py-20 px-4 bg-gradient-to-br from-pink-50 via-yellow-50 to-yellow-100 rounded-3xl shadow-xl my-12" data-aos="fade-up" data-aos-delay="100" data-aos-duration="1000">
+    <h2 class="text-3xl font-bold text-center mb-12">Our Services</h2>
+     <div class="max-w-5xl mx-auto py-16 px-4">
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+      <!-- Card 1 -->
+      <div class="rounded-2xl shadow-lg p-8 bg-gradient-to-br from-pink-500 to-yellow-400 text-white flex flex-col items-center transition transform duration-300 ease-in-out hover:scale-110 hover:shadow-2xl hover:z-10 group" data-aos="fade-up" data-aos-delay="100">
+        <div class="text-5xl mb-4 group-hover:scale-125 transition-transform duration-300 ease-in-out">🩺</div>
+        <h3 class="text-xl font-bold mb-2">General Checkup</h3>
+        <p class="text-center text-base font-medium opacity-90">Comprehensive health checkups and personalized advice for your well-being.</p>
+      </div>
+      <!-- Card 2 -->
+      <div class="rounded-2xl shadow-lg p-8 bg-gradient-to-br from-indigo-500 to-purple-400 text-white flex flex-col items-center transition transform duration-300 ease-in-out hover:scale-110 hover:shadow-2xl hover:z-10 group" data-aos="fade-up" data-aos-delay="200">
+        <div class="text-5xl mb-4 group-hover:scale-125 transition-transform duration-300 ease-in-out">🦷</div>
+        <h3 class="text-xl font-bold mb-2">Dental Care</h3>
+        <p class="text-center text-base font-medium opacity-90">Modern dental care for all ages, from cleaning to advanced procedures.</p>
+      </div>
+      <!-- Card 3 -->
+      <div class="rounded-2xl shadow-lg p-8 bg-gradient-to-br from-green-400 to-blue-500 text-white flex flex-col items-center transition transform duration-300 ease-in-out hover:scale-110 hover:shadow-2xl hover:z-10 group" data-aos="fade-up" data-aos-delay="300">
+        <div class="text-5xl mb-4 group-hover:scale-125 transition-transform duration-300 ease-in-out">👶</div>
+        <h3 class="text-xl font-bold mb-2">Pediatrics</h3>
+        <p class="text-center text-base font-medium opacity-90">Specialized care for infants, children, and adolescents in a friendly environment.</p>
+      </div>
+    </div>
+  
+  </div>
+  </section>
+
+  <!-- Our Doctors Section (HTML only, for separation) -->
+  <section id="doctors" class="doctors-section">
+    <h2 class="doctors-title">Meet Our Doctors</h2>
+    <div class="doctors-grid">
+      <!-- Doctor Card 1 -->
+      <div class="doctor-card">
+        <img src="https://randomuser.me/api/portraits/men/32.jpg" alt="Dr. Rahul Verma" class="doctor-img">
+        <h3 class="doctor-name">Dr. Rahul Verma</h3>
+        <p class="doctor-specialty" style="color:#2563eb;">Cardiologist</p>
+        <p class="doctor-desc">Expert in heart care, preventive cardiology, and patient wellness.</p>
+      </div>
+      <!-- Doctor Card 2 -->
+      <div class="doctor-card">
+        <img src="https://randomuser.me/api/portraits/women/44.jpg" alt="Dr. Priya Sharma" class="doctor-img">
+        <h3 class="doctor-name">Dr. Priya Sharma</h3>
+        <p class="doctor-specialty" style="color:#db2777;">Dermatologist</p>
+        <p class="doctor-desc">Specialist in skincare, cosmetic procedures, and dermatological health.</p>
+      </div>
+      <!-- Doctor Card 3 -->
+      <div class="doctor-card">
+        <img src="https://randomuser.me/api/portraits/women/65.jpg" alt="Dr. Anjali Mehta" class="doctor-img">
+        <h3 class="doctor-name">Dr. Anjali Mehta</h3>
+        <p class="doctor-specialty" style="color:#059669;">Pediatrician</p>
+        <p class="doctor-desc">Caring for children’s health, growth, and development with compassion.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Link to external CSS and JS -->
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js"></script>
+
+  <!-- Appointment Form Section -->
+  <section id="appointment" class="max-w-2xl mx-auto py-20 px-4 bg-gradient-to-br from-blue-50 via-green-50 to-green-100 rounded-3xl shadow-xl my-12" data-aos="fade-left" data-aos-delay="200" data-aos-duration="1000">
+    <h2 class="text-3xl font-bold text-center mb-8">Book an Appointment</h2>
+    <form class="bg-gradient-to-br p-8 rounded-lg shadow-lg space-y-6">
+      <div>
+        <label class="block mb-2 font-semibold">Full Name</label>
+        <input type="text" class="w-full border border-gray-300 rounded px-4 py-2 focus:outline-none focus:ring-2 focus:ring-blue-400" required>
+      </div>
+      <div>
+        <label class="block mb-2 font-semibold">Email</label>
+        <input type="email" class="w-full border border-gray-300 rounded px-4 py-2 focus:outline-none focus:ring-2 focus:ring-blue-400" required>
+      </div>
+      <div class="flex flex-col md:flex-row gap-4">
+        <div class="flex-1">
+          <label class="block mb-2 font-semibold">Date</label>
+          <input type="date" class="w-full border border-gray-300 rounded px-4 py-2 focus:outline-none focus:ring-2 focus:ring-blue-400" required>
+        </div>
+        <div class="flex-1">
+          <label class="block mb-2 font-semibold">Time</label>
+          <input type="time" class="w-full border border-gray-300 rounded px-4 py-2 focus:outline-none focus:ring-2 focus:ring-blue-400" required>
+        </div>
+      </div>
+      <div>
+        <label class="block mb-2 font-semibold">Select Doctor</label>
+        <select class="w-full border border-gray-300 rounded px-4 py-2 focus:outline-none focus:ring-2 focus:ring-blue-400" required>
+          <option value="">Choose a doctor</option>
+          <option>Dr. Priya Sharma</option>
+          <option>Dr. Rahul Verma</option>
+          <option>Dr. Anjali Mehta</option>
+        </select>
+      </div>
+      <button type="submit" class="w-full bg-blue-700 text-white py-3 rounded hover:bg-blue-800 transition">Submit</button>
+    </form>
+  </section>
+
+  <!-- Hospital Spaces Section -->
+  <section id="spaces" class="max-w-6xl mx-auto py-20 px-4 bg-gradient-to-br from-green-50 via-blue-50 to-blue-100 rounded-3xl shadow-xl my-12" data-aos="fade-right" data-aos-delay="200" data-aos-duration="1000">
+    <h2 class="text-3xl font-bold text-center mb-10">Our Hospital Spaces</h2>
+    <div class="grid gap-8 md:grid-cols-3 sm:grid-cols-2">
+      <div class="bg-gradient-to-br from-green-200 via-blue-100 to-blue-300 rounded-lg shadow-lg overflow-hidden hover:shadow-2xl transition duration-300 hover:scale-105 hover:z-10" data-aos="zoom-in" data-aos-delay="100">
+        <img src="https://images.unsplash.com/photo-1503676382389-4809596d5290?auto=format&fit=crop&w=600&q=80" alt="Reception Area" class="w-full h-56 object-cover">
+        <div class="p-4">
+          <h3 class="text-xl font-semibold mb-2">Reception Area</h3>
+          <p class="text-gray-700">A welcoming and modern reception for all our patients and visitors.</p>
+        </div>
+      </div>
+      <div class="bg-gradient-to-br from-blue-200 via-purple-100 to-indigo-200 rounded-lg shadow-lg overflow-hidden hover:shadow-2xl transition duration-300 hover:scale-105 hover:z-10" data-aos="zoom-in" data-aos-delay="200">
+        <img src="https://images.unsplash.com/photo-1519494026892-80bbd2d6fd23?auto=format&fit=crop&w=600&q=80" alt="Patient Room" class="w-full h-56 object-cover">
+        <div class="p-4">
+          <h3 class="text-xl font-semibold mb-2">Patient Room</h3>
+          <p class="text-gray-700">Comfortable, private rooms designed for healing and relaxation.</p>
+        </div>
+      </div>
+      <div class="bg-gradient-to-br from-pink-200 via-yellow-100 to-yellow-300 rounded-lg shadow-lg overflow-hidden hover:shadow-2xl transition duration-300 hover:scale-105 hover:z-10" data-aos="zoom-in" data-aos-delay="300">
+        <img src="https://images.unsplash.com/photo-1464983953574-0892a716854b?auto=format&fit=crop&w=600&q=80" alt="Operation Theater" class="w-full h-56 object-cover">
+        <div class="p-4">
+          <h3 class="text-xl font-semibold mb-2">Operation Theater</h3>
+          <p class="text-gray-700">State-of-the-art operation theaters equipped for advanced procedures.</p>
+        </div>
+      </div>
+      <div class="bg-gradient-to-br from-yellow-200 via-orange-100 to-pink-200 rounded-lg shadow-lg overflow-hidden hover:shadow-2xl transition duration-300 hover:scale-105 hover:z-10" data-aos="zoom-in" data-aos-delay="400">
+        <img src="https://images.unsplash.com/photo-1504439468489-c8920d796a29?auto=format&fit=crop&w=600&q=80" alt="Cafeteria" class="w-full h-56 object-cover">
+        <div class="p-4">
+          <h3 class="text-xl font-semibold mb-2">Cafeteria</h3>
+          <p class="text-gray-700">A clean and spacious cafeteria serving healthy meals and snacks.</p>
+        </div>
+      </div>
+      <div class="bg-gradient-to-br from-blue-100 via-green-100 to-green-300 rounded-lg shadow-lg overflow-hidden hover:shadow-2xl transition duration-300 hover:scale-105 hover:z-10" data-aos="zoom-in" data-aos-delay="500">
+        <img src="https://images.unsplash.com/photo-1512070679279-c2f999098c01?auto=format&fit=crop&w=600&q=80" alt="Waiting Lounge" class="w-full h-56 object-cover">
+        <div class="p-4">
+          <h3 class="text-xl font-semibold mb-2">Waiting Lounge</h3>
+          <p class="text-gray-700">Comfortable lounge for patients and families to relax while waiting.</p>
+        </div>
+      </div>
+      <div class="bg-gradient-to-br from-purple-100 via-blue-100 to-blue-300 rounded-lg shadow-lg overflow-hidden hover:shadow-2xl transition duration-300 hover:scale-105 hover:z-10" data-aos="zoom-in" data-aos-delay="600">
+        <img src="https://images.unsplash.com/photo-1526256262350-7da7584cf5eb?auto=format&fit=crop&w=600&q=80" alt="Pharmacy" class="w-full h-56 object-cover">
+        <div class="p-4">
+          <h3 class="text-xl font-semibold mb-2">Pharmacy</h3>
+          <p class="text-gray-700">On-site pharmacy for convenient access to prescribed medicines.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Testimonials Slider Section -->
+  <section id="testimonials" class="max-w-5xl mx-auto py-20 px-4 bg-gradient-to-br from-purple-50 via-indigo-50 to-blue-100 rounded-3xl shadow-xl my-12" data-aos="zoom-in-up" data-aos-delay="200" data-aos-duration="1000">
+    <h2 class="text-3xl font-bold text-center mb-10">What Our Patients Say</h2>
+    <div class="swiper testimonials-swiper">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide bg-white p-8 rounded-lg shadow-lg flex flex-col items-center text-center">
+          <p class="italic mb-4">“The doctors are very attentive and caring. I always feel safe here.”</p>
+          <div class="flex items-center space-x-3">
+            <img src="https://randomuser.me/api/portraits/women/44.jpg" alt="Patient" class="w-12 h-12 rounded-full">
+            <span class="font-semibold">Priya Sharma</span>
+          </div>
+        </div>
+        <div class="swiper-slide bg-white p-8 rounded-lg shadow-lg flex flex-col items-center text-center">
+          <p class="italic mb-4">“Modern facilities and friendly staff. Highly recommended!”</p>
+          <div class="flex items-center space-x-3">
+            <img src="https://randomuser.me/api/portraits/men/32.jpg" alt="Patient" class="w-12 h-12 rounded-full">
+            <span class="font-semibold">Rahul Verma</span>
+          </div>
+        </div>
+        <div class="swiper-slide bg-white p-8 rounded-lg shadow-lg flex flex-col items-center text-center">
+          <p class="italic mb-4">“Booking appointments is easy and the care is top-notch.”</p>
+          <div class="flex items-center space-x-3">
+            <img src="https://randomuser.me/api/portraits/women/65.jpg" alt="Patient" class="w-12 h-12 rounded-full">
+            <span class="font-semibold">Anjali Mehta</span>
+          </div>
+        </div>
+      </div>
+      <div class="swiper-pagination mt-6"></div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="max-w-6xl mx-auto py-20 px-4 bg-gradient-to-br from-blue-50 via-pink-50 to-yellow-50 rounded-3xl shadow-xl my-12" data-aos="fade-up" data-aos-delay="200" data-aos-duration="1000">
+    <h2 class="text-3xl font-bold text-center mb-10">Contact Us</h2>
+    <div class="flex justify-center">
+      <form class="bg-gradient-to-br from-blue-50 via-pink-50 to-yellow-50 p-8 rounded-lg shadow-lg space-y-6 w-full max-w-lg">
+        <div>
+          <label class="block mb-2 font-semibold">Name</label>
+          <input type="text" class="w-full border border-gray-300 rounded px-4 py-2 focus:outline-none focus:ring-2 focus:ring-blue-400" required>
+        </div>
+        <div>
+          <label class="block mb-2 font-semibold">Email</label>
+          <input type="email" class="w-full border border-gray-300 rounded px-4 py-2 focus:outline-none focus:ring-2 focus:ring-blue-400" required>
+        </div>
+        <div>
+          <label class="block mb-2 font-semibold">Message</label>
+          <textarea class="w-full border border-gray-300 rounded px-4 py-2 focus:outline-none focus:ring-2 focus:ring-blue-400" rows="4" required></textarea>
+        </div>
+        <button type="submit" class="w-full bg-blue-700 text-white py-3 rounded hover:bg-blue-800 transition">Send Message</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-gradient-to-r from-white via-blue-100 to-blue-200 shadow mt-10 py-8 px-4">
+    <div class="max-w-5xl mx-auto flex flex-col md:flex-row justify-between items-center gap-6">
+      <div class="flex flex-col items-start gap-2 mb-4 md:mb-0 w-full md:w-1/2">
+        <div class="flex items-center gap-2">
+          <svg class="w-8 h-8 text-blue-700" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 4v16m8-8H4"></path></svg>
+          <span class="text-xl font-bold text-blue-700">EliteCare Clinic</span>
+        </div>
+        <p class="font-semibold text-gray-700">Phone: <a href="tel:+1234567890" class="text-blue-700 hover:underline">+1 234 567 890</a></p>
+        <p class="font-semibold text-gray-700">Email: <a href="mailto:info@elitecare.com" class="text-blue-700 hover:underline">info@elitecare.com</a></p>
+        <p class="font-semibold text-gray-700">Address: 123 Health St, Wellness City</p>
+      </div>
+      <div class="flex flex-col items-center w-full md:w-1/2 mt-6 md:mt-0">
+        <iframe src="https://www.google.com/maps?q=Pride+Icon+Building,+Nexus,+1st+Floor,+Office+Number+102,+W5,+Kharadi,+Pune,+Maharashtra+411014&output=embed" width="100%" height="200" style="border:0;max-width:400px;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" class="rounded-lg shadow"></iframe>
+      </div>
+    </div>
+    <div class="flex flex-col items-center mt-8">
+      <div class="flex space-x-4">
+        <a href="#" aria-label="Facebook" class="text-blue-700 hover:text-blue-900 transition"><svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24"><path d="M22 12c0-5.522-4.477-10-10-10S2 6.478 2 12c0 4.991 3.657 9.128 8.438 9.877v-6.987h-2.54v-2.89h2.54V9.797c0-2.506 1.492-3.89 3.777-3.89 1.094 0 2.238.195 2.238.195v2.46h-1.26c-1.242 0-1.632.771-1.632 1.562v1.875h2.773l-.443 2.89h-2.33v6.987C18.343 21.128 22 16.991 22 12z"/></svg></a>
+        <a href="#" aria-label="Twitter" class="text-blue-700 hover:text-blue-900 transition"><svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24"><path d="M22.46 6c-.77.35-1.6.59-2.46.7a4.3 4.3 0 0 0 1.88-2.37 8.59 8.59 0 0 1-2.72 1.04A4.28 4.28 0 0 0 16.11 4c-2.37 0-4.29 1.92-4.29 4.29 0 .34.04.67.11.99C7.69 9.09 4.07 7.38 1.64 4.89c-.37.64-.58 1.39-.58 2.19 0 1.51.77 2.84 1.94 3.62-.72-.02-1.39-.22-1.98-.55v.06c0 2.11 1.5 3.87 3.5 4.27-.36.1-.74.16-1.13.16-.28 0-.54-.03-.8-.08.54 1.68 2.12 2.91 3.99 2.94A8.6 8.6 0 0 1 2 19.54a12.13 12.13 0 0 0 6.56 1.92c7.88 0 12.2-6.53 12.2-12.2 0-.19 0-.37-.01-.56A8.72 8.72 0 0 0 24 4.59a8.5 8.5 0 0 1-2.54.7z"/></svg></a>
+        <a href="#" aria-label="Instagram" class="text-blue-700 hover:text-blue-900 transition"><svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24"><path d="M7.75 2h8.5A5.75 5.75 0 0 1 22 7.75v8.5A5.75 5.75 0 0 1 16.25 22h-8.5A5.75 5.75 0 0 1 2 16.25v-8.5A5.75 5.75 0 0 1 7.75 2zm0 1.5A4.25 4.25 0 0 0 3.5 7.75v8.5A4.25 4.25 0 0 0 7.75 20.5h8.5A4.25 4.25 0 0 0 20.5 16.25v-8.5A4.25 4.25 0 0 0 16.25 3.5h-8.5zm4.25 3.25a5.25 5.25 0 1 1 0 10.5 5.25 5.25 0 0 1 0-10.5zm0 1.5a3.75 3.75 0 1 0 0 7.5 3.75 3.75 0 0 0 0-7.5zm6 1.25a1 1 0 1 1-2 0 1 1 0 0 1 2 0z"/></svg></a>
+      </div>
+    </div>
+    <div class="text-center text-gray-500 text-sm mt-6">&copy; 2025 EliteCare Clinic. All rights reserved.</div>
+  </footer>
+
+ 
+    <script>
+      if (window.Swiper) {
+        new Swiper('.hero-swiper', {
+          loop: true,
+          pagination: { el: '.swiper-pagination', clickable: true },
+          autoplay: { delay: 6000 },
+          effect: 'fade',
+          speed: 1200,
+        });
+      }
+    </script>
+
+  <!-- Scripts -->
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  <script>
+    AOS.init();
+    new Swiper('.testimonials-swiper', {
+      loop: true,
+      pagination: { el: '.swiper-pagination', clickable: true },
+      autoplay: { delay: 4000 },
+      slidesPerView: 1,
+      spaceBetween: 30,
+      breakpoints: { 768: { slidesPerView: 2 }, 1024: { slidesPerView: 3 } }
+    });
+    new Swiper('.hero-swiper', {
+      loop: true,
+      pagination: { el: '.swiper-pagination', clickable: true },
+      autoplay: { delay: 7000 },
+      effect: 'fade',
+      speed: 1500,
+      on: {
+        slideChangeTransitionStart: function() {
+          document.querySelectorAll('.swiper-slide .animate__animated').forEach(el => {
+            el.classList.remove('animate__fadeInDown', 'animate__fadeInUp');
+          });
+        },
+        slideChangeTransitionEnd: function() {
+          document.querySelectorAll('.swiper-slide-active .animate__animated').forEach(el => {
+            el.classList.add('animate__fadeInDown');
+            el.classList.add('animate__fadeInUp');
+          });
+        }
+      }
+    });
+  </script>
+</body>
+</html>
